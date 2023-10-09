@@ -41,8 +41,18 @@ li {
     list-style: none;
 }
 
+h1{
+    background-color: #FFB150;
+    border-radius: 8px;
+    padding: 10px;
+    -webkit-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+}
+
 #intro{
     padding-top: 32px;
+    background-image: url('./Assets/ImagemFundo.png');
     background-image: url('./Assets/ImagemFundo.png');
 }
 
@@ -61,7 +71,7 @@ li {
 }
 
 .introducao {
-    color: #fff;
+    color: #7D3A26;
     font-size: 1.5rem;
     text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
 }
@@ -201,6 +211,7 @@ li {
 
 #sobre{
     background-image: url('./Assets/ImagemFundo.png');
+    background-image: url('./Assets/ImagemFundo.png');
 }
 
 .sobre-mim{
@@ -212,6 +223,7 @@ li {
 
 .sobre-mim p{
     text-align: justify;
+    color: #7D3A26;
 }
 
 .titulo-sobre{
