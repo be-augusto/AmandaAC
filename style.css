@@ -1,0 +1,245 @@
+@import url('https://fonts.cdnfonts.com/css/adam-script'); 
+/* 'Adam Script', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap'); 
+/* 'Libre Baskerville',serif; */
+
+@font-face {
+    font-family: Chloe;
+    src: url('./Fonts/Chloe-Regular.otf');
+    /* 'Chloe', sans-serif; */
+}
+
+/* Lista de Cores:
+
+#7373F0 - azul;
+
+#BD76AC - lilás;
+
+#DBFF96 - amarelo;
+
+#5DD9BD - verde-água;
+
+#FFB150 - laranja;
+
+
+*/
+
+
+* {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+#intro{
+    padding-top: 32px;
+    background-image: url('./Assets/_Paleta de cores e fonte.png');
+}
+
+.borda {
+    border-radius: 0 0 30px 30px;
+}
+
+.imagem-amanda {
+    width: 70%;
+    height: 70%;
+    border-radius: 40px;
+    margin: 0 auto;
+    -webkit-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+}
+
+.introducao {
+    color: #fff;
+    font-size: 1.5rem;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    margin: auto;
+    height: 80px;
+    width: auto;
+}
+
+.atendimento {
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 10px;
+    background-color: #BD76AC;
+    margin: 2rem 30%;
+    border: 1px solid #000;
+    border-radius: 14px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.atendimento:hover {
+    transition: 0.6s;
+    background-color: #8f5882;
+}
+
+.secao {
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    font-family: 'Chloe', sans-serif;
+    padding: 0.25rem 0;
+    border-bottom: 1px solid #5DD9BD;
+}
+
+#desc{
+    background-color: #FFF;
+    padding-top: 32px;
+    padding-bottom: 48px;
+}
+
+.descricao {
+    font-size: 1.5rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+}
+
+.atendimento-desc div div img{
+    width: 30%;
+}
+
+#atendimento{
+    background-color: #FFF;
+    padding-bottom: 30px;
+}
+
+.atendimento-info {
+    background-color: #FFF;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 2;
+}
+
+.itemMenor{
+    display: none;
+}
+
+.informacoes{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+
+.atendimento-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    margin: 10px auto;
+    background-color: #FFF;
+    border-radius: 2rem;
+    width: 17rem;
+    border: 1px solid #000;
+}
+
+.atendimento-card:hover {
+    transition: 0.5s;
+    transform: scale(1.025);
+    -webkit-box-shadow: 0px 8px 19px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 8px 19px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 8px 19px 5px rgba(0, 0, 0, 0.2);
+}
+
+#card-price {
+    color: #FFB150;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#card-time {
+    font-weight: 600;
+}
+
+#card-app {
+    font-weight: 600;
+}
+
+#consulta {
+    background-color: #BD76AC;
+    padding: 10px;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 10px;
+    margin: 22px;
+    -webkit-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+}
+
+#consulta:hover{
+    transition: 0.65s;
+    background-color: #8f5882;
+}
+
+#sobre{
+    background-image: url('./Assets/_Paleta de cores e fonte.png');
+}
+
+.sobre-mim{
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+}
+
+.sobre-mim p{
+    text-align: justify;
+}
+
+.titulo-sobre{
+    text-align: center;
+    font-family: 'Chloe', sans-serif;
+    font-size: 3.5rem;
+}
+
+.img-casual{
+    width: 70%;
+    border-radius: 16px;
+    -webkit-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 10px 8px 19px 5px rgba(0, 0, 0, 0.65);
+}
+
+@media only screen and (max-width: 600px){
+    .imagens-topicos{
+        margin: auto;
+        padding-bottom: 1.5rem;
+        width: 35%;
+    }
+
+}
+
+.topico-menor{
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
