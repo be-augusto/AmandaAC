@@ -53,6 +53,7 @@ h1{
 #intro{
     padding-top: 32px;
     background-image: url('./Assets/ImagemFundo.png');
+    background-image: url('./Assets/ImagemFundo.png');
 }
 
 .borda {
@@ -209,6 +210,7 @@ h1{
 }
 
 #sobre{
+    background-image: url('./Assets/ImagemFundo.png');
     background-image: url('./Assets/ImagemFundo.png');
 }
 
