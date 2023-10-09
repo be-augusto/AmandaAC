@@ -43,7 +43,7 @@ li {
 
 #intro{
     padding-top: 32px;
-    background-image: url('./Assets/_Paleta de cores e fonte.png');
+    background-image: url('./Assets/ImagemFundo.png');
 }
 
 .borda {
@@ -200,7 +200,7 @@ li {
 }
 
 #sobre{
-    background-image: url('./Assets/_Paleta de cores e fonte.png');
+    background-image: url('./Assets/ImagemFundo.png');
 }
 
 .sobre-mim{
